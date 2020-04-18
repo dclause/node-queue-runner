@@ -1,0 +1,37 @@
+{
+  "name": "node-queue-runner",
+  "version": "1.1.0",
+  "description": "A JS class to facilitate queuing and running generic tasks in node.js.",
+  "main": "node-queue-runner.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/dominicp/node-queue-runner.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "queue",
+    "job-queue",
+    "synchronous"
+  ],
+  "author": "Dominic P",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dclause/node-queue-runner/issues"
+  },
+  "homepage": "https://github.com/dclause/node-queue-runner",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.4",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
+}
