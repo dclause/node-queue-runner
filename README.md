@@ -57,6 +57,7 @@ The class emits the following events that you can listen for.
 - `jobAdd`: Triggered when a job is added to the queue. Listener args: `(job, jobQueue)`
 - `jobRemove`: Triggered when a job is removed from the queue. Listener args: `(jobQueue)`
 - `queueError`: Triggered when a job Promise rejects or when other errors occur. Listener args: `(error, jobQueue)`
+- `queueEmpty`: Triggered when the queue empties. 
 
 The only "public" methods are:
 
