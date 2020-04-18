@@ -64,3 +64,7 @@ The only "public" methods are:
 - `addJob`: Pass in anything (string, object, function, etc.) that your runJob method
   expects to process. Must be a truthy value (i.e. `jobs.addjob(0)` will fail).
 - `getQueue`: Returns an array of jobs currently in the queue.
+
+## Credits
+
+- [Node Job Queue](https://gitlab.com/dominicp/node-job-queue) by Dominic P
